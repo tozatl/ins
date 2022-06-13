@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import pickle5 as pickle
 
-model = load_model('deployment_08062022')
+model = load_model('deployment_13062022')
 
 def predict(model, input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
