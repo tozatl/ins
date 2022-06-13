@@ -2,7 +2,7 @@ from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import pickle5 as pickle
 
 model = load_model('deployment_08062022')
 
